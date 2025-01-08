@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Capitole.Domain.Entities;
-using Capitole.Domain.Repositories;
 using Capitole.Infrastructure.Data;
+using GtMotive.Estimate.Microservice.Domain.Entities;
+using GtMotive.Estimate.Microservice.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace Capitole.Infrastructure.Repositories

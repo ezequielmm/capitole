@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Capitole.Application.Services;
-using Capitole.Domain.Entities;
+using GtMotive.Estimate.Microservice.ApplicationCore.Services;
+using GtMotive.Estimate.Microservice.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Capitole.Api.Controllers
+namespace GtMotive.Estimate.Microservice.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

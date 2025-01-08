@@ -140,3 +140,16 @@ app.UseAuthorization();
 app.MapControllers();
 
 await app.RunAsync();
+
+#pragma warning disable CA1515 // Considere la posibilidad de hacer que los tipos públicos sean internos
+public partial class Program
+#pragma warning restore CA1515 // Considere la posibilidad de hacer que los tipos públicos sean internos
+{
+    /// <summary>
+    /// Método dummy para pruebas unitarias.
+    /// </summary>
+    public void Dummy()
+    {
+        Console.WriteLine("This is for unit testing");
+    }
+}

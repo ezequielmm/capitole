@@ -1,4 +1,4 @@
-﻿namespace Capitole.Domain.Entities
+﻿namespace GtMotive.Estimate.Microservice.Domain.Entities
 {
     /// <summary>
     /// Representa un vehículo con sus propiedades y estado de alquiler.

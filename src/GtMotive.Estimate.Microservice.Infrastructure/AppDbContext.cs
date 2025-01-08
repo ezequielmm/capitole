@@ -1,4 +1,4 @@
-﻿using Capitole.Domain.Entities;
+﻿using GtMotive.Estimate.Microservice.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Capitole.Infrastructure.Data

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Capitole.Domain.Entities;
-using Capitole.Domain.Repositories;
+using GtMotive.Estimate.Microservice.Domain.Entities;
+using GtMotive.Estimate.Microservice.Domain.Repositories;
 
-namespace Capitole.Application.Services
+namespace GtMotive.Estimate.Microservice.ApplicationCore.Services
 {
     /// <summary>
     /// Servicio para gestionar vehículos.

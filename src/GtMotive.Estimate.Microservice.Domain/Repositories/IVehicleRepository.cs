@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Capitole.Domain.Entities;
+using GtMotive.Estimate.Microservice.Domain.Entities;
 
-namespace Capitole.Domain.Repositories
+namespace GtMotive.Estimate.Microservice.Domain.Repositories
 {
     /// <summary>
     /// Interface for vehicle repository operations.
